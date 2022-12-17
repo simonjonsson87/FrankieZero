@@ -1,0 +1,14 @@
+This version of raspbian only came with Java 11, which is 
+not supported on the Zero. Therefore 8 had to be installed:
+
+sudo apt-get install openjdk-8-jre-headless openjdk-8-jre
+
+After that, I had to switch to Java 8 by:
+
+sudo update-alternatives --config java
+
+
+
+Setup in Netbeans on MacOS
+---------------------
+Notice that install folder in the FrankieZero remote profile is "/usr/lib/jvm/java-8-openjdk-armhf/" 
