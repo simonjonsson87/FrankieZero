@@ -1,0 +1,5 @@
+sudo pip3 install adafruit-circuitpython-ahtx0
+
+Enable i2c and serial
+
+install Adafruit_Python_SSD1306 and bmp280-python
